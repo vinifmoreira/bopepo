@@ -234,7 +234,7 @@ public class CodigoDeBarras extends BlockOfFields{
 		// Realizando o cálculo dígito verificador e em seguida armazenando 
 		// a informação no campo "digitoVerificadorGeral".
 		digitoVerificadorGeral.setValue(
-				calculadorDV.calcule(toCalculateDV.toString())
+				calculadorDV.calcule(toCalculateDV.toString().trim())
 				);
 
 		if (log.isDebugEnabled())
