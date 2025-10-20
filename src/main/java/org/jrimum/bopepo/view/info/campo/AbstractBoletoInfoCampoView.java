@@ -71,7 +71,6 @@ public abstract class AbstractBoletoInfoCampoView implements BoletoInfoCampoView
 	 * @throws IllegalStateException
 	 *             Caso haja alguma tentativa de utilização deste construtor.
 	 */
-	@SuppressWarnings("unused")
 	private AbstractBoletoInfoCampoView(){
 		Exceptions.throwIllegalStateException("Instanciação não permitida!");
 		resourceBundle = null;

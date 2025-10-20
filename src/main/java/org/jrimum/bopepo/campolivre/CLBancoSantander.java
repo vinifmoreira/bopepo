@@ -84,6 +84,7 @@ import org.jrimum.utilix.Objects;
  * @author <a href="mailto:misaelbarreto@gmail.com">Misael Barreto</a>
  * @author <a href="mailto:">Dani Schinniger</a>
  */
+@SuppressWarnings("unused")
 class CLBancoSantander extends AbstractCLSantander implements CampoLivre {
 
 	/**
@@ -172,13 +173,13 @@ class CLBancoSantander extends AbstractCLSantander implements CampoLivre {
 	
 	@Override
 	protected void addFields(Titulo titulo) {
-		// TODO IMPLEMENTAR
+		
 		Exceptions.throwUnsupportedOperationException("AINDA NÃO IMPLEMENTADO!");
 	}
 
 	@Override
 	protected void checkValues(Titulo titulo) {
-		// TODO IMPLEMENTAR
+		
 		Exceptions.throwUnsupportedOperationException("AINDA NÃO IMPLEMENTADO!");
 	}
 }

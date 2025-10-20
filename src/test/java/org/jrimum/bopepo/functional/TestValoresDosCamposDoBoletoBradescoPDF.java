@@ -116,7 +116,6 @@ public class TestValoresDosCamposDoBoletoBradescoPDF {
 		assertThat(codigoDeBarrasImgCollection.size(), equalTo(1));
 		assertTrue(Images.areEqual(codigoDeBarrasImgEsperado, codigoDeBarrasImgCollection.iterator().next()));
 		
-		//TODO Ler o código de barras e conferir o número
 	}
 	
 	@Test

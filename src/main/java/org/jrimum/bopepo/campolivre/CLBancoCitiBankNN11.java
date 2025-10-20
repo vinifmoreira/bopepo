@@ -30,7 +30,6 @@
 
 package org.jrimum.bopepo.campolivre;
 
-import org.jrimum.domkee.financeiro.banco.febraban.ContaBancaria;
 import org.jrimum.domkee.financeiro.banco.febraban.Titulo;
 
 /**
@@ -45,12 +44,11 @@ class CLBancoCitiBankNN11 extends AbstractCLBancoDoBrasil {
 	private static final long serialVersionUID = -7675528811239346517L;
 	private static final Integer FIELDS_LENGTH = Integer.valueOf(6);
 
-	//TODO OBTER DADOS ATRAVÉS DE OBJETOS DO BOPEPO
 	    CLBancoCitiBankNN11(Titulo titulo)
 	    {
 	        super(FIELDS_LENGTH);
-	        ContaBancaria conta = titulo.getContaBancaria();
-	        String nossoNumero = titulo.getNossoNumero();
+	        titulo.getContaBancaria();
+	        titulo.getNossoNumero();
 //	        add(new Field(conta.getProduto().getCodigo(), Integer.valueOf(1), Fillers.ZERO_LEFT));
 //	        add(new Field(conta.getPortifolio().getCodigo(), Integer.valueOf(3), Fillers.ZERO_LEFT));
 //	        add(new Field(conta.getCosmos().getCodigo(), Integer.valueOf(1), Fillers.ZERO_LEFT));

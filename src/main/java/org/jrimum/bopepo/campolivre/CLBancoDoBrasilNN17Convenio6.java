@@ -125,13 +125,13 @@ class CLBancoDoBrasilNN17Convenio6 extends AbstractCLBancoDoBrasil{
 	
 	@Override
 	protected void addFields(Titulo titulo) {
-		// TODO IMPLEMENTAR
+		
 		Exceptions.throwUnsupportedOperationException("AINDA NÃO IMPLEMENTADO!");
 	}
 
 	@Override
 	protected void checkValues(Titulo titulo) {
-		// TODO IMPLEMENTAR
+		
 		Exceptions.throwUnsupportedOperationException("AINDA NÃO IMPLEMENTADO!");
 	}
 }

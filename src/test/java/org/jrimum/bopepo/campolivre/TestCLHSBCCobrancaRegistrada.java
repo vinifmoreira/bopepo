@@ -23,7 +23,6 @@ public class TestCLHSBCCobrancaRegistrada  extends AbstractCampoLivreBaseTest<CL
 	@Before
 	public void setUp(){
 		
-		//TODO FAZER TESTE REAL
 
 		titulo.getContaBancaria().setBanco(BancosSuportados.HSBC.create());
 		titulo.getContaBancaria().setAgencia(new Agencia(1234, "1"));

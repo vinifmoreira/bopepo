@@ -10,7 +10,6 @@ import org.jrimum.texgit.type.component.FixedField;
  * O campo livre do CECRED - Cooperativa Central de Crédito Urbano deve seguir esta forma:
  * </p>
  * 
- * TODO tabela com campos
  * 
  * @see org.jrimum.bopepo.campolivre.AbstractCampoLivre
  * 

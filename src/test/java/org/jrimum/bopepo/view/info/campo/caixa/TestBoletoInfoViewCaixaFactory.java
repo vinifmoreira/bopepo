@@ -7,8 +7,6 @@ import org.jrimum.bopepo.Boleto;
 import org.jrimum.bopepo.excludes.BoletoBuilder;
 import org.jrimum.bopepo.view.ResourceBundle;
 import org.jrimum.bopepo.view.info.campo.BoletoInfoCampoView;
-import org.jrimum.bopepo.view.info.campo.caixa.BoletoInfoViewCaixaFactory;
-import org.jrimum.bopepo.view.info.campo.caixa.BoletoInfoViewCaixaSIGCB;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -68,7 +68,6 @@ public class NotSupportedBancoException extends CampoLivreException {
 	 * @param message
 	 * @param cause
 	 */
-	@SuppressWarnings("unused")
 	private NotSupportedBancoException(String message, Throwable cause) {
 		super(message, cause);
 	}
@@ -76,7 +75,6 @@ public class NotSupportedBancoException extends CampoLivreException {
 	/**
 	 * @param message
 	 */
-	@SuppressWarnings("unused")
 	private NotSupportedBancoException(String message) {
 		super(message);
 	}
@@ -84,7 +82,6 @@ public class NotSupportedBancoException extends CampoLivreException {
 	/**
 	 * @param cause
 	 */
-	@SuppressWarnings("unused")
 	private NotSupportedBancoException(Throwable cause) {
 		super(msg, cause);
 	}

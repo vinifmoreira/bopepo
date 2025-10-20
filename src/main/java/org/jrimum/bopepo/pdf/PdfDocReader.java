@@ -63,7 +63,6 @@ public class PdfDocReader{
 	/**
 	 * Modo de criação não utilizado e não permitido. 
 	 */
-	@SuppressWarnings("unused")
 	private PdfDocReader() {
 		Exceptions.throwIllegalStateException("Estado não permitido!");
 		reader = null;

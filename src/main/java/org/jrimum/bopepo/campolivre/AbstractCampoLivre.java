@@ -137,7 +137,6 @@ abstract class AbstractCampoLivre extends BlockOfFields implements CampoLivre {
 	/**
 	 * Subclasses não precisam definir o tamanho.
 	 */
-	@SuppressWarnings("unused")
 	private AbstractCampoLivre(Integer fieldsLength, Integer stringLength) {
 		super(null,null);
 	}

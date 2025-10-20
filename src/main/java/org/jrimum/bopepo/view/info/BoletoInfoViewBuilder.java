@@ -75,7 +75,6 @@ public class BoletoInfoViewBuilder {
 	 * @throws IllegalStateException
 	 *             Caso haja alguma tentativa de utilização deste construtor.
 	 */
-	@SuppressWarnings("unused")
 	private BoletoInfoViewBuilder(){
 		Exceptions.throwIllegalStateException("Instanciação não permitida!");
 		text = null;

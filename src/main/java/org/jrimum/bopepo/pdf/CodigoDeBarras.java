@@ -63,7 +63,6 @@ public class CodigoDeBarras {
 	 *             
 	 * @since 0.2
 	 */
-	@SuppressWarnings("unused")
 	private CodigoDeBarras() {
 
 		Exceptions.throwIllegalStateException("Instanciação não permitida!");

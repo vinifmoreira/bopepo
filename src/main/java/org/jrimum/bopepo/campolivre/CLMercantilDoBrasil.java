@@ -107,9 +107,6 @@ class CLMercantilDoBrasil extends AbstractCLMercantilDoBrasil {
 		
 		ContaBancaria contaBancaria = titulo.getContaBancaria();
 		
-//		int digitoDoNossoNumero = calculeDigitoVerificadorDoNossoNumero(contaBancaria.getAgencia().getCodigoDaAgencia(), nossoNumero);
-		
-		//TODO Verificar de onde virá esta informação: apenas verificar se o título tem ou não valor de desconto.
 		int desconto;
 		if(titulo.getDesconto() == null || titulo.getDesconto().equals(BigDecimal.ZERO.setScale(2, RoundingMode.DOWN))) {
 			desconto = 2;
@@ -154,13 +151,13 @@ class CLMercantilDoBrasil extends AbstractCLMercantilDoBrasil {
 	
 	@Override
 	protected void addFields(Titulo titulo) {
-		// TODO IMPLEMENTAR
+		
 		Exceptions.throwUnsupportedOperationException("AINDA NÃO IMPLEMENTADO!");
 	}
 
 	@Override
 	protected void checkValues(Titulo titulo) {
-		// TODO IMPLEMENTAR
+		
 		Exceptions.throwUnsupportedOperationException("AINDA NÃO IMPLEMENTADO!");
 	}
 

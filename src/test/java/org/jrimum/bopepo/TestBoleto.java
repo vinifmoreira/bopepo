@@ -167,7 +167,7 @@ public class TestBoleto{
 		boleto = new Boleto(titulo, null);
 	}
 	
-	@SuppressWarnings("serial")
+	
 	@Test
 	public void testSetCampoLivreTamanhoCorreto() {
 		
